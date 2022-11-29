@@ -102,15 +102,16 @@ body {
 }
 
 .galleri {
+  gap: 25px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-items: center;
   height: 300px;
-  margin-bottom: 100px;
+  /*  margin-bottom: 100px; */
 }
 
 .galleri-billede {
-  margin-right: 25px;
+  /*   margin-right: 25px; */
 }
 
 /* .galleri-billede:hover .galleri-billede-img {
