@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"> <!-- Husk denen  -->
+    <link rel="stylesheet" href="fuktioner.js"> <!-- Husk denen  -->
     <meta name="robots" content="noindex"> <!-- blir ikke indexseret på google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
@@ -49,7 +50,7 @@
                     hvordan hans passion started eog hvordan den gennem årene har udviklet sig. Idag har Kevin nogle af
                     sine tegninger udstille i Paris. Han har drømmer ikke om at leve afat tegne, men hans passion for
                     tegning er stadig meget stor. </p>
-                <button class="film-knap-top">SE FILMENE</button>
+                <button onclick="afspilVideo()" class="film-knap-top">SE FILMENE</button>
             </div>
             <div class="billede-contatiner">
                 <h1 class="billede-tittel">BILLEDER</h1>
@@ -73,16 +74,18 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="fetured-film"
+            <div class="fetured-film"
                 style="background: linear-gradient(to bottom, rgba(0, 0, 0,0), #1d1d1d), url(billeder/kevint-int-store.webp);">
                 <h2>Kredits</h2>
-                <p class="film-beskrivelse">djdjdgsjgjigjidgjijijidgjidgjijknkjkkdskkjkjkksksksksksksksdgsjkdjkgdsjdsbgi
+                <p class="film-beskrivelse">Laver af Rodrigo Perea & Mathias Olsesen. Endvidere en stor tak til kevin
+                    for at hjælpe med projektet og lægge hus til optagelserne. Hvis i vil se flere af hans værker, så gå
+                    ind på www.nordiclive.dk
                 </p>
 
             </div>
- -->
 
-            <!--            <div class="billede-contatiner">
+
+            <div class="billede-contatiner">
                 <h1 class="billede-tittel">FILMENE</h1>
                 <div class="billeder-wrap">
                     <div class="galleri">
@@ -95,14 +98,13 @@
                         </div>
 
                         <div class="galleri-billede">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CjL_AG7QAVM"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                            <video class="billede-til-galleri" id="play-movie"
+                                src="http://nordiclive.dk/kea/05_indhold/pilot_site/01_politvideo/politvideo.mp4"
+                                controls></video>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </body>
